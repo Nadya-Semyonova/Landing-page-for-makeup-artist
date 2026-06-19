@@ -1,6 +1,7 @@
 # Landing page for makeup artist
 
 Одностраничный сайт-портфолио для визажиста-гримёра. Проект выполнен на React с использованием TypeScript и Vite. Адаптивный дизайн, плавная навигация, галерея работ и блок с услугами.
+https://nadya-semyonova.github.io/Landing-page-for-makeup-artist/
 
 ##  Структура проекта
 
