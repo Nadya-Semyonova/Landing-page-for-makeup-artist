@@ -34,4 +34,5 @@ export default defineConfig({
     },
   },
   assetsInclude: ['**/*.svg', '**/*.csv'],
+  base: '/Landing-page-for-makeup-artist/',
 });
