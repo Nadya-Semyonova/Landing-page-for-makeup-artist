@@ -1,9 +1,15 @@
 name: Deploy to GitHub Pages
 
+# 👇 ДОБАВЬТЕ ЭТИ РАЗРЕШЕНИЯ
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 on:
   push:
     branches:
-      - main  
+      - main  # или master
 
 jobs:
   build:
