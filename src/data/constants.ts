@@ -1,7 +1,7 @@
 
 const basePath = import.meta.env.BASE_URL;
 
-export const ARTIST_PHOTO = `${basePath}images/hero.jpg`;
+export const ARTIST_PHOTO = `${basePath}images/hero.JPG`;
 
 export const GALLERY_PHOTOS = [
   { id: 1, url: `${basePath}images/1.jpg`, label: "Гламурный образ" },
