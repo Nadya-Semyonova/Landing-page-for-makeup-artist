@@ -38,7 +38,7 @@ export default function Hero({ scrollTo }: HeroProps) {
             className="uppercase tracking-[0.3em] text-accent mb-3 text-sm"
             style={{ fontFamily: "'Jost', sans-serif" }}
           >
-            Визажист · Гримёр
+            Визажист · Гримёр · Стилист по прическам · Бровист
           </p>
           <h1
             className="text-primary leading-none mb-6"
@@ -56,8 +56,8 @@ export default function Hero({ scrollTo }: HeroProps) {
             className="text-muted-foreground max-w-md mx-auto md:mx-0 mb-8"
             style={{ fontFamily: "'Jost', sans-serif", fontWeight: 300, fontSize: "1rem" }}
           >
-            Профессиональный макияж для любого образа — от нежного свадебного
-            до дерзкого fashion-грима.
+            Создание любого образа — от нежного свадебного
+            до дерзкого fashion и грима.
           </p>
           <Button
             onClick={() => scrollTo("contacts")}

@@ -1,5 +1,4 @@
 import { Phone, Send, Instagram, MessageCircle } from "lucide-react";
-import { Card } from "../../app/components/ui/card";
 
 export default function Contacts() {
   return (
@@ -34,12 +33,12 @@ export default function Contacts() {
             </div>
             <p className="text-xs tracking-widest uppercase text-muted-foreground">Телефон</p>
             <p className="text-primary text-sm" style={{ fontFamily: "'Cormorant Infant', serif", fontSize: "1.1rem" }}>
-              +7 999 123-45-67
+              +7 902 251 4737
             </p>
           </a>
           {/* Остальные контакты аналогично... */}
           <a
-            href="https://t.me/renata_makeup"
+            href="https://t.me/rena_renatik"
             target="_blank"
             rel="noreferrer"
             className="flex flex-col items-center gap-3 p-7 bg-card border border-border hover:border-accent transition-all duration-200 group rounded-sm"
@@ -49,11 +48,11 @@ export default function Contacts() {
             </div>
             <p className="text-xs tracking-widest uppercase text-muted-foreground">Telegram</p>
             <p style={{ fontFamily: "'Cormorant Infant', serif", fontSize: "1.1rem" }} className="text-primary">
-              @renata_makeup
+              @rena_renatik
             </p>
           </a>
           <a
-            href="https://instagram.com/renata_makeup"
+            href="https://www.instagram.com/renata_grimer?igsh=MWE5YjYxZmRzOHZ5aw%3D%3D&utm_source=qr"
             target="_blank"
             rel="noreferrer"
             className="flex flex-col items-center gap-3 p-7 bg-card border border-border hover:border-accent transition-all duration-200 group rounded-sm"
@@ -63,11 +62,11 @@ export default function Contacts() {
             </div>
             <p className="text-xs tracking-widest uppercase text-muted-foreground">Instagram</p>
             <p style={{ fontFamily: "'Cormorant Infant', serif", fontSize: "1.1rem" }} className="text-primary">
-              @renata_makeup
+              @renata_grimer
             </p>
           </a>
           <a
-            href="https://vk.com/renata_makeup"
+            href="http://vk.ru/renata_gerey"
             target="_blank"
             rel="noreferrer"
             className="flex flex-col items-center gap-3 p-7 bg-card border border-border hover:border-accent transition-all duration-200 group rounded-sm"
@@ -77,14 +76,15 @@ export default function Contacts() {
             </div>
             <p className="text-xs tracking-widest uppercase text-muted-foreground">ВКонтакте</p>
             <p style={{ fontFamily: "'Cormorant Infant', serif", fontSize: "1.1rem" }} className="text-primary">
-              vk.com/renata_makeup
+              vk.ru/renata_gerey
             </p>
           </a>
         </div>
 
         <div className="mt-10 text-center">
           <p className="text-muted-foreground text-sm" style={{ fontWeight: 300 }}>
-            📍 Калининград · Выезд к клиенту по всему городу
+            📍 Принимаю по адресу: Калининград,
+            Площадь Победы 4, подъез 4, 5 этаж, 11 кабинет
           </p>
         </div>
       </div>
