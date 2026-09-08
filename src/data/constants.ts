@@ -5,7 +5,7 @@ export const ARTIST_PHOTO = `${basePath}images/hero.jpg`;
 
 export const GALLERY_PHOTOS = [
   { id: 1, url: `${basePath}images/1.jpg`, label: "Макияж на мероприятие" },
-  { id: 2, url: `${basePath}images/6.PNG`, label: "Вечерний макияж" },
+  { id: 2, url: `${basePath}images/6.jpg`, label: "Вечерний макияж" },
   { id: 3, url: `${basePath}images/8.jpg`, label: "Макияж touch up" },
   { id: 4, url: `${basePath}images/7.jpg`, label: "Fashion-съёмка" },
   { id: 5, url: `${basePath}images/12.jpg`, label: "Праздничный образ" },
